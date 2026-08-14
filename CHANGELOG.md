@@ -2,6 +2,9 @@
 
 All notable changes to the "Know" extension will be documented in this file.
 
+## [1.0.5] - 2026-08-14
+- Removed redundant full-page logo from README header to allow clean layout rendering on Marketplace.
+
 ## [1.0.4] - 2026-08-14
 - Updated README image references to direct raw GitHub URLs for cross-platform rendering.
 
