@@ -51,7 +51,7 @@ export class FocusEngine implements vscode.Disposable {
     let projectId = options.projectId;
     let projectName: string | undefined;
     let category: WorkCategory = options.category || 'Personal Project';
-    let duration = options.durationMinutes || 35;
+    let duration = options.durationMinutes !== undefined ? options.durationMinutes : 35;
 
     if (options.taskId) {
       const task = this.taskEngine.getTaskById(options.taskId);
@@ -59,7 +59,7 @@ export class FocusEngine implements vscode.Disposable {
         title = task.title;
         projectId = task.projectId || projectId;
         category = task.category || category;
-        duration = options.durationMinutes || task.targetDurationMinutes || 35;
+        duration = options.durationMinutes !== undefined ? options.durationMinutes : (task.targetDurationMinutes ?? 35);
 
         if (task.status === 'TODO') {
           await this.taskEngine.updateStatus(task.id, 'IN_PROGRESS');
