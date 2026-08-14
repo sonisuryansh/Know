@@ -1,9 +1,10 @@
 {
   "name": "know",
-  "displayName": "Know — Developer Focus & Coding Productivity Workspace",
-  "description": "A general-purpose developer focus and coding productivity workspace for VS Code with timers, task & project management, GitHub repository import, 52-week activity heatmap, and streak statistics.",
+  "displayName": "Know",
+  "description": "A free developer workspace for tasks, focus sessions, projects, and coding activity inside VS Code.",
   "version": "1.0.0",
   "publisher": "sonisuryansh",
+  "icon": "media/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/sonisuryansh/Know.git"
@@ -17,26 +18,18 @@
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Other",
-    "Education",
-    "Productivity"
+    "Other"
   ],
   "keywords": [
-    "focus",
-    "timer",
-    "todo",
-    "tasks",
-    "projects",
-    "github",
-    "git",
-    "productivity",
-    "pomodoro",
-    "heatmap",
     "developer",
-    "coding"
+    "productivity",
+    "focus",
+    "tasks",
+    "project-management",
+    "coding",
+    "developer-tools"
   ],
   "main": "./out/extension.js",
-  "icon": "media/icons/know-icon.png",
   "activationEvents": [
     "onStartupFinished"
   ],
