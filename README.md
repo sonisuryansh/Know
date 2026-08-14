@@ -1,144 +1,144 @@
-# Know
+<div align="center">
 
-**Know** is a focused developer workspace built directly into VS Code for organizing projects, managing tasks, running distraction-free focus sessions, and tracking coding activity over time.
+# ⚡ Know
+### *Developer Focus & Coding Productivity Workspace for VS Code*
 
----
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0+-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-Know-181717.svg?logo=github&logoColor=white)](https://github.com/sonisuryansh/Know)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-success.svg)](README.md#privacy--data-storage)
 
-## Why Know?
+<p align="center">
+  <b>Know</b> is an all-in-one focus and productivity workspace built directly into VS Code.<br>
+  Plan tasks, run distraction-free focus timers, organize projects, import GitHub repositories, and track your daily coding activity with a 52-week heatmap — without leaving your editor.
+</p>
 
-Developers often switch between code editors, external to-do apps, web timers, and time-tracking spreadsheets. Context switching breaks flow and scatters project history across multiple apps.
-
-**Know brings the entire focus and productivity loop inside VS Code:**
-- **Stay in your flow:** Plan tasks, start timers, and associate files without leaving your editor.
-- **Track genuine progress:** Log focused development time and monitor day streaks with a 52-week activity heatmap.
-- **Native VS Code feel:** 100% theme-adaptive UI that automatically matches any dark, light, or high-contrast theme.
-- **100% Local & Private:** All data resides on your machine with zero tracking, zero external telemetry, and offline backup capabilities.
-
----
-
-## Features
-
-### 🎯 1. Focus Sessions & Smart Timer
-- **Preset & Custom Timers:** Launch focus sessions with standard presets (25m, 45m, 60m, 90m), custom minute inputs, or an open-ended stopwatch timer.
-- **Task & Project Attachment:** Focus on specific tasks or start an ad-hoc session immediately.
-- **Live Status Bar:** Displays real-time remaining or elapsed time right in your VS Code status bar (`$(clock) 24:35`).
-- **In-Session Controls:** Pause, resume, extend by +5 minutes, cancel, or complete sessions with optional summary notes.
-
-### 📋 2. Task Management & Frictionless Inbox
-- **Quick Inbox Capture:** Type an idea in the quick input bar and hit `Enter` to instantly save thoughts without breaking your focus.
-- **Today's Focus Queue:** Curate what you intend to accomplish today.
-- **Task Attributes:** Assign priorities (`Low`, `Medium`, `High`, `Urgent`), categories, estimated durations, and optional notes.
-- **Context-Aware File Linking:** Link the currently active workspace file directly to any task. Clicking `📄 File` re-opens that file in the editor.
-
-### 📁 3. Projects & Workspaces
-- **Organize by Scope:** Group tasks under custom projects (e.g. personal apps, client work, open-source repos, learning).
-- **Progress Tracking:** Live completion bars indicating completed versus total tasks per project.
-- **Workspace Connection:** Associate projects with local folders and open project workspaces in one click.
-
-### 🐙 4. GitHub & Git Integration
-- **Import GitHub Repositories:** Clone repositories directly via HTTPS, SSH, or `owner/repo` short syntax into a chosen folder.
-- **Workspace Auto-Detection:** Detects Git remotes and active branches from your open VS Code workspace.
-- **Safe Operations:** Checks target folders to prevent accidental overwrites and provides clear error diagnostics if network or clone operations fail.
-
-### 📊 5. Statistics & 52-Week Activity Heatmap
-- **52-Week Activity Heatmap:** GitHub-style coding activity grid visualizing daily focus time across the past 365 days.
-- **Metrics at a Glance:**
-  - **Day Streak:** Current consecutive days active.
-  - **Today's Focus:** Minutes focused today.
-  - **This Week:** Aggregate focus hours and minutes.
-  - **Tasks Completed:** Total completed tasks count.
-- **Category & Project Breakdown:** Percentage and minute rollups of time spent per category and project.
-- **Session History:** Log of recent completed sessions with durations, dates, and notes.
+</div>
 
 ---
 
-## Getting Started
+## 💡 Why Know?
 
-1. **Open Know:** Click the ⚡ **Know / Developer Focus** icon in the Activity Bar or press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and run `Developer Focus: View Focus Hub`.
-2. **Start Immediately:**
-   - Click **▶ Start Focus** on the Focus screen for an ad-hoc session.
+Developers waste valuable energy switching between code editors, browser timers, external to-do apps, and spreadsheets. Every context switch breaks your concentration.
+
+**Know keeps you completely inside your coding flow:**
+- 🚫 **No external apps:** Manage tasks and timers directly in the VS Code sidebar or editor tab.
+- 🎯 **Deep Focus:** Built-in countdown and stopwatch timers with live status bar feedback.
+- 📂 **Context-Aware:** Link open files directly to tasks for seamless one-click resumption.
+- 📈 **Authentic Progress:** Automatic 52-week activity heatmap and day streak tracking.
+- 🎨 **100% Native Theming:** Seamlessly adapts to Dark+, Light+, High Contrast, and custom themes.
+- 🔒 **Private & Offline:** Zero telemetry, no cloud accounts, and 100% local machine storage.
+
+---
+
+## 🚀 Key Features
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                          ⚡ KNOW WORKSPACE                             │
+├──────────────┬──────────────────┬──────────────────┬───────────────────┤
+│  🎯 FOCUS    │    📋 TASKS      │   📁 PROJECTS    │    📊 STATS       │
+│  • Timers    │  • Quick Inbox   │  • Git Connect   │  • 52-Wk Heatmap  │
+│  • Stopwatch │  • Today's Queue │  • Folders       │  • Day Streaks    │
+│  • Status Bar│  • File Links    │  • Progress      │  • Time Breakdown │
+└──────────────┴──────────────────┴──────────────────┴───────────────────┘
+```
+
+### 1. 🎯 Smart Focus Timers
+- **Presets & Custom Durations:** Select standard intervals (`25m`, `45m`, `60m`, `90m`), enter custom minutes, or switch to open-ended stopwatch mode (`No timer`).
+- **In-Session Controls:** Pause, resume, extend by `+5m`, or finish sessions with summary notes.
+- **Status Bar Integration:** Shows real-time countdown or elapsed time right on your status bar (`$(clock) 24:35`).
+
+### 2. 📋 Frictionless Task Management
+- **Instant Quick Capture:** Type ideas or tasks in the quick bar and press `Enter` to save to your Inbox without interrupting work.
+- **Today's Focus Queue:** Select what you want to achieve today and work through them sequentially.
+- **Priorities & Metadata:** Tag tasks with `Low`, `Medium`, `High`, or `Urgent`, assign estimated minutes, and set categories.
+- **Active Editor File Linking:** Link open files to tasks (`📄 File`). Click the badge to jump straight back to that file anytime.
+
+### 3. 📁 Project Organization
+- **Group by Scope:** Organize tasks by project (e.g. *Personal Apps*, *Company Work*, *Open Source*, *Learning*).
+- **Workspace Navigation:** Connect local project folders and open workspaces in VS Code with a single click.
+
+### 4. 🐙 GitHub & Git Repository Integration
+- **Direct GitHub Clone:** Import repositories via HTTPS, SSH, or `owner/repo` short syntax.
+- **Collision Safety:** Automatically inspects target folders to prevent overwriting existing files.
+- **Branch Detection:** Auto-detects Git branches and remotes in your active workspace.
+
+### 5. 📊 52-Week Activity Heatmap & Streaks
+- **GitHub-Style Heatmap:** Visual grid displaying your daily focus time across the past 365 days.
+- **Productivity Metrics:** Tracks current day streak, daily focus minutes, weekly totals, and completed tasks.
+- **Category & Project Breakdowns:** Understand exactly where your development time goes.
+
+---
+
+## 🏁 Getting Started
+
+1. **Open Know:** Click the ⚡ **Know** icon on your VS Code Activity Bar, or press `Ctrl+Shift+P` / `Cmd+Shift+P` and type `Developer Focus: View Focus Hub`.
+2. **Start a Session:**
+   - Click **▶ Start Focus** on the hero banner for an immediate ad-hoc timer.
    - Or click **+ Add Task** to add an item to Today's queue.
-3. **Work with Focus:** Keep VS Code open and work normally. The status bar keeps track of your session.
-4. **Review Progress:** Switch to the **Stats** tab to inspect your activity heatmap and daily streaks.
+3. **Code in Flow:** Work in your editor while Know monitors focus duration in your status bar.
+4. **View Progress:** Open the **Stats** tab to review your daily streaks and 52-week activity heatmap.
 
 ---
 
-## GitHub Repository Setup
+## ⌨️ Command Palette Shortcuts
 
-To initialize a project from GitHub:
-1. Open the **Projects** tab and click **🐙 Import GitHub** (or run `Developer Focus: Import GitHub Repository` from the Command Palette).
-2. Enter the repository URL (e.g. `https://github.com/username/repository.git` or `username/repository`).
-3. Select a destination folder on your machine.
-4. Know checks whether the folder is empty or contains an existing repository.
-5. Upon cloning, Know associates the project, detects the default branch, and offers to open the workspace.
-
----
-
-## Commands
-
-Access all actions from the VS Code Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
+Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to access all commands:
 
 | Command | Description |
 |---|---|
-| `Developer Focus: Start Focus Session` | Select an existing task or start a custom focus session |
-| `Developer Focus: Quick Add Task to Inbox` | Quickly capture a thought or task into your Inbox |
-| `Developer Focus: Create Task from Current File` | Creates a task pre-linked to the active editor file |
-| `Developer Focus: Start Focus on This File` | Immediately starts a focus session linked to the active file |
-| `Developer Focus: Link Current File to Task` | Links the active editor file to an existing task |
-| `Developer Focus: Create New Task` | Opens the interactive task creation wizard |
-| `Developer Focus: Pause Focus Session` | Pauses the currently active timer |
-| `Developer Focus: Resume Focus Session` | Resumes the paused timer |
-| `Developer Focus: Finish Focus Session` | Finishes and logs the session, with option to mark task complete |
-| `Developer Focus: Import GitHub Repository` | Clones and connects a GitHub repository as a project |
-| `Developer Focus: Associate Current Workspace as Project` | Detects workspace Git details and creates a project |
-| `Developer Focus: View Focus Hub` | Focuses the sidebar view |
-| `Developer Focus: View Productivity Stats & Heatmap` | Opens the stats and productivity view |
-| `Developer Focus: Open Focus Hub in Editor Tab` | Opens the full Focus dashboard in a main editor tab |
+| `Developer Focus: Start Focus Session` | Start a custom focus session or pick an existing task |
+| `Developer Focus: Quick Add Task to Inbox` | Capture a task/idea into your Inbox immediately |
+| `Developer Focus: Create Task from Current File` | Create a task linked to the active editor file |
+| `Developer Focus: Start Focus on This File` | Start a focus session linked to the active editor file |
+| `Developer Focus: Link Current File to Task` | Link the open file to an existing task |
+| `Developer Focus: Create New Task` | Open the interactive task creation wizard |
+| `Developer Focus: Pause Focus Session` | Pause the active focus timer |
+| `Developer Focus: Resume Focus Session` | Resume the paused focus timer |
+| `Developer Focus: Finish Focus Session` | Complete and log the session with optional notes |
+| `Developer Focus: Import GitHub Repository` | Clone a GitHub repository and link it as a project |
+| `Developer Focus: Associate Current Workspace as Project` | Connect the current workspace Git repository |
+| `Developer Focus: View Focus Hub` | Focus the sidebar panel |
+| `Developer Focus: View Productivity Stats & Heatmap` | Open the productivity and statistics view |
+| `Developer Focus: Open Focus Hub in Editor Tab` | Open the complete dashboard in an editor tab |
 
 ---
 
-## Settings
+## ⚙️ Extension Settings
 
-Configure preferences in VS Code Settings (`Ctrl+,` / `Cmd+,` searching for `Developer Focus`):
+Configure Know in your VS Code Settings (`Ctrl+,` / `Cmd+,` searching for `Developer Focus`):
 
 | Setting | Type | Default | Description |
 |---|---|---|---|
-| `devFocus.defaultDurationMinutes` | `number` | `35` | Default focus session target duration in minutes. |
-| `devFocus.defaultCategory` | `string` | `"Personal Project"` | Default category assigned to new tasks. |
+| `devFocus.defaultDurationMinutes` | `number` | `35` | Default focus session target duration in minutes |
+| `devFocus.defaultCategory` | `string` | `"Personal Project"` | Default category assigned to new tasks |
 
 ---
 
-## Privacy & Data Storage
+## 🔒 Privacy & Data Storage
 
-- **100% Local Storage:** All tasks, projects, sessions, and statistics are stored locally using VS Code's `ExtensionContext.globalState`.
-- **No Telemetry / No Tracking:** Know does not collect, transmit, or monetize any analytics, metrics, or personal data.
-- **No Cloud Dependencies:** Works completely offline without requiring any user account or third-party service.
-- **Backup & Portability:** Export your entire dataset to a single standard JSON file or restore anytime via the Settings dialog (`⚙️`).
+- **100% Local:** All tasks, projects, sessions, and statistics are stored securely on your machine using VS Code's `globalState`.
+- **Zero Telemetry:** No analytics, tracking, or network requests are ever made by Know.
+- **Offline First:** Fully functional without an internet connection.
+- **Data Portability:** Export your entire database to standard JSON or restore anytime via the Settings dialog (`⚙️`).
 
 ---
 
-## Requirements
+## 🛠️ Requirements
 
 - **VS Code:** Version `1.80.0` or higher.
-- **Git:** Git CLI installed and available in your system path (only required if using Git repository import / branch detection features).
+- **Git:** Git CLI installed on your machine (only needed if using GitHub clone or branch detection features).
 
 ---
 
-## Troubleshooting
-
-- **Git Clone Issues:** Ensure Git is installed and that you have read/write access to private repositories via your local SSH keys or Git credential manager.
-- **Non-Empty Folder Warning:** When cloning a repository, choose an empty directory or select the parent folder to prevent file collision.
-- **File Link Re-opening:** Ensure workspace files have been saved to disk so that Know can resolve their absolute paths.
-
----
-
-## Support & Feedback
+## 🤝 Support & Feedback
 
 - **GitHub Repository:** [https://github.com/sonisuryansh/Know](https://github.com/sonisuryansh/Know)
-- **Issue Tracker:** [https://github.com/sonisuryansh/Know/issues](https://github.com/sonisuryansh/Know/issues)
+- **Report an Issue:** [https://github.com/sonisuryansh/Know/issues](https://github.com/sonisuryansh/Know/issues)
 
 ---
 
-## License
+## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This extension is open-source software licensed under the [MIT License](LICENSE).
