@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="12" cy="12" r="10"/>
-  <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <!-- Outer Circle -->
+  <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.6"/>
+  <!-- Stylized K -->
+  <!-- Left stem with arched doorway -->
+  <path d="M7 6v12h3v-4.5a2 2 0 0 1 2-2 2 2 0 0 1 2 2V18h3V6H7z" fill="none"/>
+  <!-- K main shape -->
+  <path d="M8 7h2.8v4.2l3.4-4.2h3.4l-4.4 5.3 4.8 5.7h-3.5L11.5 14v4H8V7z" fill="currentColor"/>
+  <!-- Doorway opening in K base -->
+  <path d="M9.8 18v-3a1.2 1.2 0 0 1 2.4 0v3H9.8z" fill="var(--vscode-activityBar-background, #181818)"/>
 </svg>

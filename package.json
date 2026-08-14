@@ -36,7 +36,7 @@
     "coding"
   ],
   "main": "./out/extension.js",
-  "icon": "media/icons/dsa-focus-icon.png",
+  "icon": "media/icons/know-icon.png",
   "activationEvents": [
     "onStartupFinished"
   ],
