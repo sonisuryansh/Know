@@ -1,33 +1,50 @@
 <div align="center">
 
 # ⚡ Know
-### *Focus & Coding Productivity Workspace for VS Code*
+
+> **A free developer workspace for tasks, focus sessions, projects, and coding activity inside VS Code.**
 
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0+-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-Know-181717.svg?logo=github&logoColor=white)](https://github.com/sonisuryansh/Know)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-success.svg)](README.md#privacy--data-storage)
 
+<br>
+
 <p align="center">
-  <b>Know</b> is an all-in-one focus and productivity workspace built directly into VS Code.<br>
-  Plan tasks, run distraction-free focus timers, organize projects, import GitHub repositories, and track your daily coding activity with a 52-week heatmap — without leaving your editor.
+  <img src="docs/screenshots/know-dashboard.png" alt="Know developer workspace dashboard" width="100%">
+  <br>
+  <em>Know — a focused development workspace inside VS Code.</em>
 </p>
 
 </div>
 
 ---
 
+## 📖 What is Know?
+
+**Know** is a focused developer workspace built directly into Visual Studio Code. It brings your daily planning, focus timers, project management, and activity tracking into a single unified sidebar without forcing you to switch between browser tabs, external to-do apps, and timer tools.
+
+With Know, you can:
+- **Plan & Organize:** Capture quick thoughts in your Inbox and curate your daily focus queue.
+- **Deep Flow Sessions:** Run distraction-free focus sessions with live countdowns on your status bar.
+- **Manage Projects:** Organize tasks by project and jump directly into local workspaces.
+- **Import GitHub Repositories:** Clone GitHub projects and link them directly inside your workspace.
+- **Track Activity:** Visualize your coding consistency with a 52-week activity heatmap and streak tracking.
+
+---
+
 ## 💡 Why Know?
 
-Developers waste valuable energy switching between code editors, browser timers, external to-do apps, and spreadsheets. Every context switch breaks your concentration.
+Developers lose significant focus when constantly switching context between code editors, external timers, browser-based trackers, and task management apps.
 
-**Know keeps you completely inside your coding flow:**
-- 🚫 **No external apps:** Manage tasks and timers directly in the VS Code sidebar or editor tab.
-- 🎯 **Deep Focus:** Built-in countdown and stopwatch timers with live status bar feedback.
-- 📂 **Context-Aware:** Link open files directly to tasks for seamless one-click resumption.
-- 📈 **Authentic Progress:** Automatic 52-week activity heatmap and day streak tracking.
-- 🎨 **100% Native Theming:** Seamlessly adapts to Dark+, Light+, High Contrast, and custom themes.
-- 🔒 **Private & Offline:** Zero telemetry, no cloud accounts, and 100% local machine storage.
+**Know keeps you in flow:**
+- 🚫 **No External Tools:** Run focus timers and task lists without leaving your editor.
+- 🎯 **Deep Focus Mode:** Flexible countdown presets (`25m`, `45m`, `60m`, `90m`), custom timers, or stopwatch tracking.
+- 📄 **Context-Aware File Linking:** Associate open editor files directly with tasks and jump right back with one click.
+- 📈 **Visual Progress:** Automatic 52-week activity heatmap, daily streaks, and category breakdowns.
+- 🎨 **100% Native Theme Adaptive:** Seamlessly matches your VS Code theme (Dark+, Light+, High Contrast).
+- 🔒 **100% Private & Offline:** Zero telemetry, no cloud accounts, and all data stored locally on your machine.
 
 ---
 
@@ -45,29 +62,43 @@ Developers waste valuable energy switching between code editors, browser timers,
 ```
 
 ### 1. 🎯 Smart Focus Timers
-- **Presets & Custom Durations:** Select standard intervals (`25m`, `45m`, `60m`, `90m`), enter custom minutes, or switch to open-ended stopwatch mode (`No timer`).
-- **In-Session Controls:** Pause, resume, extend by `+5m`, or finish sessions with summary notes.
-- **Status Bar Integration:** Shows real-time countdown or elapsed time right on your status bar (`$(clock) 24:35`).
+- **Flexible Durations:** Choose standard intervals (`25m`, `45m`, `60m`, `90m`), input a custom duration, or use open-ended stopwatch mode.
+- **Live Session Controls:** Pause, resume, extend by `+5m`, or finish sessions with summary notes.
+- **Status Bar Integration:** Displays real-time timer countdown and active project context directly in your status bar (`$(flame) Know: 24:35`).
 
 ### 2. 📋 Frictionless Task Management
-- **Instant Quick Capture:** Type ideas or tasks in the quick bar and press `Enter` to save to your Inbox without interrupting work.
-- **Today's Focus Queue:** Select what you want to achieve today and work through them sequentially.
-- **Priorities & Metadata:** Tag tasks with `Low`, `Medium`, `High`, or `Urgent`, assign estimated minutes, and set categories.
-- **Active Editor File Linking:** Link open files to tasks (`📄 File`). Click the badge to jump straight back to that file anytime.
+- **Instant Quick Capture:** Rapidly save ideas to your Inbox with a single `Enter` press.
+- **Today's Focus Queue:** Curate your daily goals and work through them sequentially.
+- **Priorities & Metadata:** Tag tasks with `Low`, `Medium`, `High`, or `Urgent`, assign estimated durations, and select work categories.
+- **Editor File Linking:** Attach active files to tasks (`📄 File`) to return to exact files anytime.
 
-### 3. 📁 Project Organization
-- **Group by Scope:** Organize tasks by project (e.g. *Personal Apps*, *Company Work*, *Open Source*, *Learning*).
-- **Workspace Navigation:** Connect local project folders and open workspaces in VS Code with a single click.
+### 3. 📁 Project Management
+- **Group by Scope:** Organize your tasks by project (*Personal Apps*, *Client Work*, *Open Source*, *Learning*).
+- **Workspace Navigation:** Connect local project folders and open them in VS Code with a single click.
 
 ### 4. 🐙 GitHub & Git Repository Integration
-- **Direct GitHub Clone:** Import repositories via HTTPS, SSH, or `owner/repo` short syntax.
-- **Collision Safety:** Automatically inspects target folders to prevent overwriting existing files.
-- **Branch Detection:** Auto-detects Git branches and remotes in your active workspace.
+- **Direct GitHub Clone:** Clone repositories via HTTPS, SSH, or `owner/repo` short syntax.
+- **Collision Safety:** Automatically inspects destination folders to prevent accidental overwrites.
+- **Branch & Remote Detection:** Automatically detects active Git branches and remotes.
 
 ### 5. 📊 52-Week Activity Heatmap & Streaks
-- **GitHub-Style Heatmap:** Visual grid displaying your daily focus time across the past 365 days.
-- **Productivity Metrics:** Tracks current day streak, daily focus minutes, weekly totals, and completed tasks.
-- **Category & Project Breakdowns:** Understand exactly where your development time goes.
+- **GitHub-Style Heatmap:** A visual 365-day grid displaying daily focus time and coding consistency.
+- **Productivity Metrics:** Tracks daily focus minutes, weekly totals, completed tasks, and active streaks.
+- **Category & Project Breakdowns:** Understand where your development hours are invested.
+
+---
+
+## 📦 Installation
+
+Install **Know** directly inside VS Code:
+
+1. Open VS Code.
+2. Open the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
+3. Search for **Know**.
+4. Click **Install**.
+5. Click the ⚡ **Know** icon in your Activity Bar to open your workspace.
+
+*(Once published, Know will be available directly on the Visual Studio Marketplace).*
 
 ---
 
@@ -77,8 +108,8 @@ Developers waste valuable energy switching between code editors, browser timers,
 2. **Start a Session:**
    - Click **▶ Start Focus** on the hero banner for an immediate ad-hoc timer.
    - Or click **+ Add Task** to add an item to Today's queue.
-3. **Code in Flow:** Work in your editor while Know monitors focus duration in your status bar.
-4. **View Progress:** Open the **Stats** tab to review your daily streaks and 52-week activity heatmap.
+3. **Code in Flow:** Work in your editor while Know tracks your focus session in your status bar.
+4. **Review Progress:** Switch to the **Stats** tab to see your daily streaks and 52-week activity heatmap.
 
 ---
 
@@ -117,27 +148,22 @@ Configure Know in your VS Code Settings (`Ctrl+,` / `Cmd+,` searching for `Know`
 
 ## 🔒 Privacy & Data Storage
 
-- **100% Local:** All tasks, projects, sessions, and statistics are stored securely on your machine using VS Code's `globalState`.
-- **Zero Telemetry:** No analytics, tracking, or network requests are ever made by Know.
-- **Offline First:** Fully functional without an internet connection.
-- **Data Portability:** Export your entire database to standard JSON or restore anytime via the Settings dialog (`⚙️`).
+- **100% Local Storage:** All tasks, projects, focus logs, and statistics are stored locally on your machine via VS Code `globalState`.
+- **Zero Telemetry:** No personal data, code snippets, or analytics are ever collected or sent to external servers.
+- **Offline Ready:** Fully functional without an internet connection (except when cloning Git repositories).
+- **Data Export & Import:** Backup your data anytime via the ⚙️ Settings menu (`📥 Export Data` / `📤 Import Data`).
 
 ---
 
-## 🛠️ Requirements
+## 🤝 Contributing & Feedback
 
-- **VS Code:** Version `1.80.0` or higher.
-- **Git:** Git CLI installed on your machine (only needed if using GitHub clone or branch detection features).
+Contributions, feedback, and bug reports are welcome!
 
----
-
-## 🤝 Support & Feedback
-
-- **GitHub Repository:** [https://github.com/sonisuryansh/Know](https://github.com/sonisuryansh/Know)
-- **Report an Issue:** [https://github.com/sonisuryansh/Know/issues](https://github.com/sonisuryansh/Know/issues)
+- **Report an Issue:** [GitHub Issues](https://github.com/sonisuryansh/Know/issues)
+- **Source Code:** [GitHub Repository](https://github.com/sonisuryansh/Know)
 
 ---
 
 ## 📄 License
 
-This extension is open-source software licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
