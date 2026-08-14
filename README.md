@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="media/icon.png" width="80" height="80" alt="Know Logo">
+![Know Logo](https://raw.githubusercontent.com/sonisuryansh/Know/main/media/icons/know-icon.png)
 
 # Know
 
@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img src="docs/screenshots/know-dashboard.png" alt="Know developer workspace dashboard" width="100%">
+  <img src="https://raw.githubusercontent.com/sonisuryansh/Know/main/docs/screenshots/know-dashboard.png" alt="Know developer workspace dashboard" width="100%">
   <br>
   <em>Know — a focused development workspace inside VS Code.</em>
 </p>
