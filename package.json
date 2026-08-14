@@ -2,7 +2,7 @@
   "name": "know",
   "displayName": "Know",
   "description": "A free developer workspace for tasks, focus sessions, projects, and coding activity inside VS Code.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "sonisuryansh",
   "icon": "media/icon.png",
   "repository": {

@@ -2,6 +2,9 @@
 
 All notable changes to the "Know" extension will be documented in this file.
 
+## [1.0.4] - 2026-08-14
+- Updated README image references to direct raw GitHub URLs for cross-platform rendering.
+
 ## [1.0.3] - 2026-08-14
 - Configured repository-relative image assets for both GitHub and VS Code Marketplace views.
 - Included dashboard screenshots within extension documentation package.
