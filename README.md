@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Know
+# Know
 
 > **A free developer workspace for tasks, focus sessions, projects, and coding activity inside VS Code.**
 
@@ -52,7 +52,7 @@ Developers lose significant focus when constantly switching context between code
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                          ⚡ KNOW WORKSPACE                             │
+│                           KNOW WORKSPACE                               │
 ├──────────────┬──────────────────┬──────────────────┬───────────────────┤
 │  🎯 FOCUS    │    📋 TASKS      │   📁 PROJECTS    │    📊 STATS       │
 │  • Timers    │  • Quick Inbox   │  • Git Connect   │  • 52-Wk Heatmap  │
@@ -96,7 +96,7 @@ Install **Know** directly inside VS Code:
 2. Open the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
 3. Search for **Know**.
 4. Click **Install**.
-5. Click the ⚡ **Know** icon in your Activity Bar to open your workspace.
+5. Click the **Know** icon in your Activity Bar to open your workspace.
 
 *(Once published, Know will be available directly on the Visual Studio Marketplace).*
 
@@ -104,7 +104,7 @@ Install **Know** directly inside VS Code:
 
 ## 🏁 Getting Started
 
-1. **Open Know:** Click the ⚡ **Know** icon on your VS Code Activity Bar, or press `Ctrl+Shift+P` / `Cmd+Shift+P` and type `Know: View Focus Hub`.
+1. **Open Know:** Click the **Know** icon on your VS Code Activity Bar, or press `Ctrl+Shift+P` / `Cmd+Shift+P` and type `Know: View Focus Hub`.
 2. **Start a Session:**
    - Click **▶ Start Focus** on the hero banner for an immediate ad-hoc timer.
    - Or click **+ Add Task** to add an item to Today's queue.

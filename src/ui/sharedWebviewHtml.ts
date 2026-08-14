@@ -20,7 +20,6 @@ export function getSharedWebviewHtml(webview: vscode.Webview, extensionUri: vsco
     <!-- Top Header -->
     <header class="app-header">
       <div class="brand-title">
-        <span class="brand-icon">⚡</span>
         <span class="brand-name">Know</span>
       </div>
       <div class="header-actions">
