@@ -5,4 +5,5 @@ test/**
 .gitignore
 tsconfig.json
 generate-icon.js
+scratch/**
 *.log

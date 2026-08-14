@@ -198,7 +198,7 @@ export class WebviewMessageHandler {
 
       case 'RESET_DATA': {
         const confirm = await vscode.window.showWarningMessage(
-          'Are you sure you want to reset all Developer Focus data? This action cannot be undone.',
+          'Are you sure you want to reset all Know data? This action cannot be undone.',
           { modal: true },
           'Reset Everything'
         );

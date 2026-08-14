@@ -34,14 +34,14 @@ export class FileLinkManager {
   public static async openLinkedFile(filePath: string): Promise<boolean> {
     try {
       if (!fs.existsSync(filePath)) {
-        vscode.window.showErrorMessage(`Developer Focus: Linked file not found at: ${filePath}`);
+        vscode.window.showErrorMessage(`Know: Linked file not found at: ${filePath}`);
         return false;
       }
       const doc = await vscode.workspace.openTextDocument(filePath);
       await vscode.window.showTextDocument(doc, { preview: false, viewColumn: vscode.ViewColumn.One });
       return true;
     } catch (err) {
-      vscode.window.showErrorMessage(`Developer Focus: Could not open file: ${String(err)}`);
+      vscode.window.showErrorMessage(`Know: Could not open file: ${String(err)}`);
       return false;
     }
   }

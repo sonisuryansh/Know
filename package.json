@@ -38,7 +38,7 @@
       "activitybar": [
         {
           "id": "dev-focus-explorer",
-          "title": "Developer Focus",
+          "title": "Know",
           "icon": "media/icons/activity-bar-icon.svg"
         }
       ]
@@ -48,80 +48,80 @@
         {
           "type": "webview",
           "id": "devFocus.sidebarView",
-          "name": "Developer Focus Hub"
+          "name": "Know"
         }
       ]
     },
     "commands": [
       {
         "command": "devFocus.startSession",
-        "title": "Developer Focus: Start Focus Session",
-        "category": "Developer Focus"
+        "title": "Know: Start Focus Session",
+        "category": "Know"
       },
       {
         "command": "devFocus.quickAddTask",
-        "title": "Developer Focus: Quick Add Task to Inbox",
-        "category": "Developer Focus"
+        "title": "Know: Quick Add Task to Inbox",
+        "category": "Know"
       },
       {
         "command": "devFocus.createTaskFromCurrentFile",
-        "title": "Developer Focus: Create Task from Current File",
-        "category": "Developer Focus"
+        "title": "Know: Create Task from Current File",
+        "category": "Know"
       },
       {
         "command": "devFocus.startFocusOnFile",
-        "title": "Developer Focus: Start Focus on This File",
-        "category": "Developer Focus"
+        "title": "Know: Start Focus on This File",
+        "category": "Know"
       },
       {
         "command": "devFocus.importGitHubRepo",
-        "title": "Developer Focus: Import GitHub Repository",
-        "category": "Developer Focus"
+        "title": "Know: Import GitHub Repository",
+        "category": "Know"
       },
       {
         "command": "devFocus.associateCurrentWorkspace",
-        "title": "Developer Focus: Associate Current Workspace as Project",
-        "category": "Developer Focus"
+        "title": "Know: Associate Current Workspace as Project",
+        "category": "Know"
       },
       {
         "command": "devFocus.pauseSession",
-        "title": "Developer Focus: Pause Focus Session",
-        "category": "Developer Focus"
+        "title": "Know: Pause Focus Session",
+        "category": "Know"
       },
       {
         "command": "devFocus.resumeSession",
-        "title": "Developer Focus: Resume Focus Session",
-        "category": "Developer Focus"
+        "title": "Know: Resume Focus Session",
+        "category": "Know"
       },
       {
         "command": "devFocus.finishSession",
-        "title": "Developer Focus: Finish Focus Session",
-        "category": "Developer Focus"
+        "title": "Know: Finish Focus Session",
+        "category": "Know"
       },
       {
         "command": "devFocus.createTask",
-        "title": "Developer Focus: Create New Task",
-        "category": "Developer Focus"
+        "title": "Know: Create New Task",
+        "category": "Know"
       },
       {
         "command": "devFocus.linkCurrentFile",
-        "title": "Developer Focus: Link Current File to Task",
-        "category": "Developer Focus"
+        "title": "Know: Link Current File to Task",
+        "category": "Know"
       },
       {
         "command": "devFocus.viewFocus",
-        "title": "Developer Focus: View Focus Hub",
-        "category": "Developer Focus"
+        "title": "Know: View Focus Hub",
+        "category": "Know"
       },
       {
         "command": "devFocus.viewStats",
-        "title": "Developer Focus: View Productivity Stats & Heatmap",
-        "category": "Developer Focus"
+        "title": "Know: View Productivity Stats & Heatmap",
+        "category": "Know"
       },
       {
         "command": "devFocus.openInTab",
-        "title": "Developer Focus: Open Focus Hub in Editor Tab",
-        "category": "Developer Focus"
+        "title": "Know: Open Focus Hub in Editor Tab",
+        "category": "Know"
       }
     ],
     "menus": {
@@ -147,17 +147,17 @@
       ]
     },
     "configuration": {
-      "title": "Developer Focus",
+      "title": "Know",
       "properties": {
-        "devFocus.defaultDurationMinutes": {
+        "know.defaultDurationMinutes": {
           "type": "number",
           "default": 35,
           "description": "Default target focus time in minutes for focus sessions."
         },
-        "devFocus.defaultCategory": {
-          "type": "string",
-          "default": "Personal Project",
-          "description": "Default category for new tasks and focus sessions."
+        "devFocus.defaultDurationMinutes": {
+          "type": "number",
+          "default": 35,
+          "markdownDescription": "Legacy setting: Default target focus time in minutes for focus sessions."
         }
       }
     }

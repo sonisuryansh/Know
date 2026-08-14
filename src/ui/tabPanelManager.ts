@@ -34,7 +34,7 @@ export class TabPanelManager {
 
     const panel = vscode.window.createWebviewPanel(
       'devFocusTab',
-      '⚡ Developer Focus Hub',
+      '⚡ Know',
       column || vscode.ViewColumn.One,
       {
         enableScripts: true,

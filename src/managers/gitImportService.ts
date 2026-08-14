@@ -38,7 +38,7 @@ export class GitImportService {
     const existingByUrl = this.projectEngine.findProjectByRepoUrl(validated.normalizedUrl);
     if (existingByUrl) {
       const choice = await vscode.window.showInformationMessage(
-        `Project already exists: This GitHub repository is already configured in Developer Focus ("${existingByUrl.name}").`,
+        `Project already exists: This GitHub repository is already configured in Know ("${existingByUrl.name}").`,
         'Open Project Folder',
         'Dismiss'
       );
@@ -82,7 +82,7 @@ export class GitImportService {
         // Same remote already exists on disk
         const choice = await vscode.window.showInformationMessage(
           `Repository already exists: This folder is already connected to ${validated.normalizedUrl}.`,
-          'Add to Developer Focus',
+          'Add to Know',
           'Open Folder'
         );
 
@@ -164,7 +164,7 @@ export class GitImportService {
       return null;
     }
 
-    // 7. Associate with Developer Focus Project
+    // 7. Associate with Know Project
     const project = await this.projectEngine.createProject({
       name: formatRepoTitle(validated.repoName),
       description: `Cloned from ${validated.normalizedUrl}`,
@@ -190,7 +190,7 @@ export class GitImportService {
   }
 
   /**
-   * Associates the current active workspace with Developer Focus
+   * Associates the current active workspace with Know
    */
   public async associateActiveWorkspace(): Promise<DevProject | null> {
     const wsGit = await GitManager.detectActiveWorkspaceGit();
@@ -225,7 +225,7 @@ export class GitImportService {
       icon: '🐙'
     });
 
-    vscode.window.showInformationMessage(`✓ Successfully connected workspace "${project.name}" [${wsGit.branch || 'main'}] to Developer Focus!`);
+    vscode.window.showInformationMessage(`✓ Successfully connected workspace "${project.name}" [${wsGit.branch || 'main'}] to Know!`);
     return project;
   }
 }

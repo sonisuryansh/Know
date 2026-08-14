@@ -36,8 +36,8 @@ export class StatusBarController implements vscode.Disposable {
 
   private updateDisplay(session: ReturnType<FocusEngine['getSession']>): void {
     if (!session || session.state === 'IDLE' || session.state === 'COMPLETED') {
-      this.statusBarItem.text = `$(flame) DevFocus`;
-      this.statusBarItem.tooltip = 'Developer Focus — Click to open Hub';
+      this.statusBarItem.text = `$(flame) Know`;
+      this.statusBarItem.tooltip = 'Know — Click to open';
       this.statusBarItem.backgroundColor = undefined;
       return;
     }

@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Know
-### *Developer Focus & Coding Productivity Workspace for VS Code*
+### *Focus & Coding Productivity Workspace for VS Code*
 
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0+-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -73,7 +73,7 @@ Developers waste valuable energy switching between code editors, browser timers,
 
 ## 🏁 Getting Started
 
-1. **Open Know:** Click the ⚡ **Know** icon on your VS Code Activity Bar, or press `Ctrl+Shift+P` / `Cmd+Shift+P` and type `Developer Focus: View Focus Hub`.
+1. **Open Know:** Click the ⚡ **Know** icon on your VS Code Activity Bar, or press `Ctrl+Shift+P` / `Cmd+Shift+P` and type `Know: View Focus Hub`.
 2. **Start a Session:**
    - Click **▶ Start Focus** on the hero banner for an immediate ad-hoc timer.
    - Or click **+ Add Task** to add an item to Today's queue.
@@ -88,31 +88,30 @@ Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to access all commands:
 
 | Command | Description |
 |---|---|
-| `Developer Focus: Start Focus Session` | Start a custom focus session or pick an existing task |
-| `Developer Focus: Quick Add Task to Inbox` | Capture a task/idea into your Inbox immediately |
-| `Developer Focus: Create Task from Current File` | Create a task linked to the active editor file |
-| `Developer Focus: Start Focus on This File` | Start a focus session linked to the active editor file |
-| `Developer Focus: Link Current File to Task` | Link the open file to an existing task |
-| `Developer Focus: Create New Task` | Open the interactive task creation wizard |
-| `Developer Focus: Pause Focus Session` | Pause the active focus timer |
-| `Developer Focus: Resume Focus Session` | Resume the paused focus timer |
-| `Developer Focus: Finish Focus Session` | Complete and log the session with optional notes |
-| `Developer Focus: Import GitHub Repository` | Clone a GitHub repository and link it as a project |
-| `Developer Focus: Associate Current Workspace as Project` | Connect the current workspace Git repository |
-| `Developer Focus: View Focus Hub` | Focus the sidebar panel |
-| `Developer Focus: View Productivity Stats & Heatmap` | Open the productivity and statistics view |
-| `Developer Focus: Open Focus Hub in Editor Tab` | Open the complete dashboard in an editor tab |
+| `Know: Start Focus Session` | Start a custom focus session or pick an existing task |
+| `Know: Quick Add Task to Inbox` | Capture a task/idea into your Inbox immediately |
+| `Know: Create Task from Current File` | Create a task linked to the active editor file |
+| `Know: Start Focus on This File` | Start a focus session linked to the active editor file |
+| `Know: Link Current File to Task` | Link the open file to an existing task |
+| `Know: Create New Task` | Open the interactive task creation wizard |
+| `Know: Pause Focus Session` | Pause the active focus timer |
+| `Know: Resume Focus Session` | Resume the paused focus timer |
+| `Know: Finish Focus Session` | Complete and log the session with optional notes |
+| `Know: Import GitHub Repository` | Clone a GitHub repository and link it as a project |
+| `Know: Associate Current Workspace as Project` | Connect the current workspace Git repository |
+| `Know: View Focus Hub` | Focus the sidebar panel |
+| `Know: View Productivity Stats & Heatmap` | Open the productivity and statistics view |
+| `Know: Open Focus Hub in Editor Tab` | Open the complete dashboard in an editor tab |
 
 ---
 
 ## ⚙️ Extension Settings
 
-Configure Know in your VS Code Settings (`Ctrl+,` / `Cmd+,` searching for `Developer Focus`):
+Configure Know in your VS Code Settings (`Ctrl+,` / `Cmd+,` searching for `Know`):
 
 | Setting | Type | Default | Description |
 |---|---|---|---|
-| `devFocus.defaultDurationMinutes` | `number` | `35` | Default focus session target duration in minutes |
-| `devFocus.defaultCategory` | `string` | `"Personal Project"` | Default category assigned to new tasks |
+| `know.defaultDurationMinutes` | `number` | `35` | Default focus session target duration in minutes |
 
 ---
 

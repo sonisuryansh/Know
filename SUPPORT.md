@@ -18,7 +18,7 @@ If you encounter a bug, have a suggestion, or want to propose a new feature:
 
 - **Git Clone Errors**: Make sure the `git` command is accessible from your terminal and you have authentication credentials configured for private repositories.
 - **Data Backup**: You can backup all your tasks, projects, and focus history anytime by clicking the ⚙️ icon in the top header and choosing **📥 Export Data (JSON)**.
-- **Workspace Association**: To link your current project workspace, use the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and select `Developer Focus: Associate Current Workspace as Project`.
+- **Workspace Association**: To link your current project workspace, use the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and select `Know: Associate Current Workspace as Project`.
 
 ## Contributing
 

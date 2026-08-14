@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "Know" (Developer Focus) extension will be documented in this file.
+All notable changes to the "Know" extension will be documented in this file.
 
 ## [1.0.0] - 2026-08-14
 

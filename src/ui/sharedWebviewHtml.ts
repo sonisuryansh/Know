@@ -13,7 +13,7 @@ export function getSharedWebviewHtml(webview: vscode.Webview, extensionUri: vsco
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource} 'unsafe-inline'; font-src ${webview.cspSource}; img-src ${webview.cspSource} https: data:; script-src 'nonce-${nonce}';">
   <link href="${styleUri}" rel="stylesheet">
-  <title>Developer Focus</title>
+  <title>Know</title>
 </head>
 <body class="dev-body ${isPanel ? 'panel-mode' : 'sidebar-mode'}">
   <div id="app">
@@ -21,7 +21,7 @@ export function getSharedWebviewHtml(webview: vscode.Webview, extensionUri: vsco
     <header class="app-header">
       <div class="brand-title">
         <span class="brand-icon">⚡</span>
-        <span class="brand-name">Developer Focus</span>
+        <span class="brand-name">Know</span>
       </div>
       <div class="header-actions">
         <button class="btn btn-primary btn-xs header-cta-btn" id="headerStartFocusBtn">▶ Start Focus</button>

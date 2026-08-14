@@ -14,7 +14,7 @@ import { GitImportService } from './managers/gitImportService';
 import { WORK_CATEGORIES, WorkCategory, TASK_PRIORITIES, TaskPriority } from './constants';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('🚀 Developer Focus extension is activating...');
+  console.log('🚀 Know extension is activating...');
 
   // 1. Initialize Core Storage & Engines
   const storageManager = new StorageManager(context);
@@ -121,7 +121,7 @@ export function activate(context: vscode.ExtensionContext) {
   const finishSessionCmd = vscode.commands.registerCommand('devFocus.finishSession', async () => {
     const session = focusEngine.getSession();
     if (!session) {
-      vscode.window.showInformationMessage('Developer Focus: No active session running.');
+      vscode.window.showInformationMessage('Know: No active session running.');
       return;
     }
 
@@ -210,7 +210,7 @@ export function activate(context: vscode.ExtensionContext) {
   const createTaskFromCurrentFileCmd = vscode.commands.registerCommand('devFocus.createTaskFromCurrentFile', async (uri?: vscode.Uri) => {
     const filePath = uri ? uri.fsPath : FileLinkManager.getActiveEditorFilePath();
     if (!filePath) {
-      vscode.window.showWarningMessage('Developer Focus: No file is currently open in the editor.');
+      vscode.window.showWarningMessage('Know: No file is currently open in the editor.');
       return;
     }
 
@@ -247,7 +247,7 @@ export function activate(context: vscode.ExtensionContext) {
   const startFocusOnFileCmd = vscode.commands.registerCommand('devFocus.startFocusOnFile', async (uri?: vscode.Uri) => {
     const filePath = uri ? uri.fsPath : FileLinkManager.getActiveEditorFilePath();
     if (!filePath) {
-      vscode.window.showWarningMessage('Developer Focus: No file is currently open in the editor.');
+      vscode.window.showWarningMessage('Know: No file is currently open in the editor.');
       return;
     }
 
@@ -268,13 +268,13 @@ export function activate(context: vscode.ExtensionContext) {
   const linkCurrentFileCmd = vscode.commands.registerCommand('devFocus.linkCurrentFile', async () => {
     const currentPath = FileLinkManager.getActiveEditorFilePath();
     if (!currentPath) {
-      vscode.window.showWarningMessage('Developer Focus: Please open a workspace file in the editor first.');
+      vscode.window.showWarningMessage('Know: Please open a workspace file in the editor first.');
       return;
     }
 
     const tasks = taskEngine.getAllTasks().filter(t => t.status !== 'COMPLETED');
     if (tasks.length === 0) {
-      vscode.window.showInformationMessage('Developer Focus: No active tasks found. Create a task first!');
+      vscode.window.showInformationMessage('Know: No active tasks found. Create a task first!');
       return;
     }
 
@@ -334,9 +334,9 @@ export function activate(context: vscode.ExtensionContext) {
     viewStatsCmd
   );
 
-  console.log('✅ Developer Focus extension successfully activated.');
+  console.log('✅ Know extension successfully activated.');
 }
 
 export function deactivate() {
-  console.log('🛑 Developer Focus extension deactivated.');
+  console.log('🛑 Know extension deactivated.');
 }
