@@ -2,6 +2,10 @@
 
 All notable changes to the "Know" extension will be documented in this file.
 
+## [1.0.2] - 2026-08-14
+- Optimized README and Marketplace assets with raw repository asset links.
+- Updated package metadata and locked dependencies.
+
 ## [1.0.0] - 2026-08-14
 
 ### Initial Production Release
