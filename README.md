@@ -1,6 +1,6 @@
 <div align="center">
 
-# Know
+# <img src="media/icon.png" width="36" height="36" valign="middle" alt="Know Logo"> Know
 
 > **A focused developer workspace for tasks, focus sessions, projects, and coding activity inside VS Code.**
 
