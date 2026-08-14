@@ -1,0 +1,181 @@
+{
+  "name": "dev-focus",
+  "displayName": "Developer Focus — Coding Productivity & Focus Workspace",
+  "description": "A general-purpose developer focus and coding productivity workspace for VS Code with timers, task & project management, GitHub repository import, coding activity heatmap, and streak statistics.",
+  "version": "1.0.0",
+  "publisher": "dev-focus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-focus/dev-focus"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Education",
+    "Productivity"
+  ],
+  "keywords": [
+    "focus",
+    "timer",
+    "todo",
+    "tasks",
+    "projects",
+    "github",
+    "git",
+    "productivity",
+    "pomodoro",
+    "heatmap",
+    "developer",
+    "coding"
+  ],
+  "main": "./out/extension.js",
+  "icon": "media/icons/dsa-focus-icon.png",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "dev-focus-explorer",
+          "title": "Developer Focus",
+          "icon": "media/icons/activity-bar-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "dev-focus-explorer": [
+        {
+          "type": "webview",
+          "id": "devFocus.sidebarView",
+          "name": "Developer Focus Hub"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "devFocus.startSession",
+        "title": "Developer Focus: Start Focus Session",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.quickAddTask",
+        "title": "Developer Focus: Quick Add Task to Inbox",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.createTaskFromCurrentFile",
+        "title": "Developer Focus: Create Task from Current File",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.startFocusOnFile",
+        "title": "Developer Focus: Start Focus on This File",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.importGitHubRepo",
+        "title": "Developer Focus: Import GitHub Repository",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.associateCurrentWorkspace",
+        "title": "Developer Focus: Associate Current Workspace as Project",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.pauseSession",
+        "title": "Developer Focus: Pause Focus Session",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.resumeSession",
+        "title": "Developer Focus: Resume Focus Session",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.finishSession",
+        "title": "Developer Focus: Finish Focus Session",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.createTask",
+        "title": "Developer Focus: Create New Task",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.linkCurrentFile",
+        "title": "Developer Focus: Link Current File to Task",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.viewFocus",
+        "title": "Developer Focus: View Focus Hub",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.viewStats",
+        "title": "Developer Focus: View Productivity Stats & Heatmap",
+        "category": "Developer Focus"
+      },
+      {
+        "command": "devFocus.openInTab",
+        "title": "Developer Focus: Open Focus Hub in Editor Tab",
+        "category": "Developer Focus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "devFocus.startFocusOnFile",
+          "group": "7_modification@1"
+        },
+        {
+          "command": "devFocus.createTaskFromCurrentFile",
+          "group": "7_modification@2"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "devFocus.startFocusOnFile",
+          "group": "7_modification@1"
+        },
+        {
+          "command": "devFocus.createTaskFromCurrentFile",
+          "group": "7_modification@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Developer Focus",
+      "properties": {
+        "devFocus.defaultDurationMinutes": {
+          "type": "number",
+          "default": 35,
+          "description": "Default target focus time in minutes for focus sessions."
+        },
+        "devFocus.defaultCategory": {
+          "type": "string",
+          "default": "Personal Project",
+          "description": "Default category for new tasks and focus sessions."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --no-git-tag-version",
+    "pretest": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.3.3"
+  }
+}
